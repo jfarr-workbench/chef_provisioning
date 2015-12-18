@@ -1,0 +1,1 @@
+default['insecure_bootstrap']['encrypted_data_bag_secret'] = "encrypted_data_bag_secret"

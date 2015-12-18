@@ -77,8 +77,8 @@
       "/dev/disk1": {
         "block_size": 512,
         "kb_size": 243924992,
-        "kb_used": 89440388,
-        "kb_available": 154228604,
+        "kb_used": 88575672,
+        "kb_available": 155093320,
         "percent_used": "37%",
         "mount": "/",
         "fs_type": "hfs",
@@ -775,9 +775,9 @@
     },
     "memory": {
       "total": "16384MB",
-      "active": "10197MB",
-      "inactive": "2666MB",
-      "free": "3518MB"
+      "active": "10234MB",
+      "inactive": "4600MB",
+      "free": "1547MB"
     },
     "network": {
       "interfaces": {
@@ -863,9 +863,10 @@
           "number": "0",
           "encapsulation": "Ethernet",
           "arp": {
-            "192.168.110.1": "fc:c2:de:23:66:a3",
+            "169.254.69.55": "80:86:f2:bd:1a:69",
+            "169.254.117.129": "fc:f8:ae:c4:36:d2",
+            "192.168.110.1": "0:ff:ac:a1:99:5b",
             "192.168.110.6": "a4:5e:60:d5:ba:d7",
-            "192.168.110.12": "d0:7e:35:f:bc:bb",
             "192.168.110.13": "24:77:3:bc:29:44"
           }
         },
@@ -1139,7 +1140,7 @@
         "net.inet.tcp.sack_globalholes": "0",
         "net.inet.tcp.minmss": "216",
         "net.inet.tcp.do_tcpdrain": "0",
-        "net.inet.tcp.pcbcount": "56",
+        "net.inet.tcp.pcbcount": "45",
         "net.inet.tcp.tw_pcbcount": "0",
         "net.inet.tcp.icmp_may_rst": "1",
         "net.inet.tcp.strict_rfc1948": "0",
@@ -1157,14 +1158,14 @@
         "net.inet.tcp.timer_fastmode_idlemax": "10",
         "net.inet.tcp.broken_peer_syn_rxmit_thres": "7",
         "net.inet.tcp.broken_peer_syn_rexmit_thres_local": "10",
-        "net.inet.tcp.tcp_timer_advanced": "596",
-        "net.inet.tcp.tcp_resched_timerlist": "552656",
+        "net.inet.tcp.tcp_timer_advanced": "606",
+        "net.inet.tcp.tcp_resched_timerlist": "560226",
         "net.inet.tcp.pmtud_blackhole_detection": "1",
         "net.inet.tcp.pmtud_blackhole_mss": "1200",
         "net.inet.tcp.cc_debug": "0",
         "net.inet.tcp.newreno_sockets": "0",
-        "net.inet.tcp.background_sockets": "8",
-        "net.inet.tcp.cubic_sockets": "43",
+        "net.inet.tcp.background_sockets": "9",
+        "net.inet.tcp.cubic_sockets": "31",
         "net.inet.tcp.use_newreno": "0",
         "net.inet.tcp.cubic_tcp_friendliness": "0",
         "net.inet.tcp.cubic_fast_convergence": "0",
@@ -1180,7 +1181,7 @@
         "net.inet.udp.recvspace": "196724",
         "net.inet.udp.log_in_vain": "0",
         "net.inet.udp.blackhole": "0",
-        "net.inet.udp.pcbcount": "77",
+        "net.inet.udp.pcbcount": "76",
         "net.inet.udp.randomize_ports": "1",
         "net.inet.ipsec.def_policy": "1",
         "net.inet.ipsec.esp_trans_deflev": "1",
@@ -1437,9 +1438,9 @@
         "interfaces": {
           "lo0": {
             "rx": {
-              "bytes": "626671",
+              "bytes": "673480",
               "packets": "0",
-              "errors": "152550384",
+              "errors": "190775167",
               "drop": 0,
               "overrun": 0,
               "frame": 0,
@@ -1449,7 +1450,7 @@
             "tx": {
               "bytes": "0",
               "packets": "0",
-              "errors": "152550384",
+              "errors": "190775167",
               "drop": 0,
               "overrun": 0,
               "collisions": "0",
@@ -1503,8 +1504,8 @@
           },
           "en0": {
             "rx": {
-              "bytes": "25955893476",
-              "packets": "23985833",
+              "bytes": "26334063773",
+              "packets": "24339598",
               "errors": "0",
               "drop": 0,
               "overrun": 0,
@@ -1513,8 +1514,8 @@
               "multicast": 0
             },
             "tx": {
-              "bytes": "4737023524",
-              "packets": "18164633",
+              "bytes": "4796455176",
+              "packets": "18431435",
               "errors": "0",
               "drop": 0,
               "overrun": 0,
@@ -1623,8 +1624,8 @@
               "multicast": 0
             },
             "tx": {
-              "bytes": "674998",
-              "packets": "4166",
+              "bytes": "677609",
+              "packets": "4183",
               "errors": "0",
               "drop": 0,
               "overrun": 0,
@@ -1667,8 +1668,8 @@
     "platform_version": "10.10.5",
     "platform_build": "14F1021",
     "platform_family": "mac_os_x",
-    "uptime_seconds": 4919725,
-    "uptime": "56 days 22 hours 35 minutes 25 seconds",
+    "uptime_seconds": 4938205,
+    "uptime": "57 days 03 hours 43 minutes 25 seconds",
     "languages": {
       "c": {
         "gcc": {
@@ -1742,7 +1743,7 @@
           "-detailLevel",
           "full"
         ],
-        "_SPResponseTime": 0.12489795684814453,
+        "_SPResponseTime": 0.12845999002456665,
         "_dataType": "SPAirPortData"
       },
       {
@@ -1754,7 +1755,7 @@
           "-detailLevel",
           "full"
         ],
-        "_SPResponseTime": 0.1557680368423462,
+        "_SPResponseTime": 0.34297698736190796,
         "_dataType": "SPAudioData"
       },
       {
@@ -1766,7 +1767,7 @@
           "-detailLevel",
           "full"
         ],
-        "_SPResponseTime": 0.1557689905166626,
+        "_SPResponseTime": 0.3430140018463135,
         "_dataType": "SPBluetoothData"
       },
       {
@@ -1778,7 +1779,7 @@
           "-detailLevel",
           "full"
         ],
-        "_SPResponseTime": 0.15577399730682373,
+        "_SPResponseTime": 0.34296494722366333,
         "_dataType": "SPCardReaderData"
       },
       {
@@ -1790,7 +1791,7 @@
           "-detailLevel",
           "full"
         ],
-        "_SPResponseTime": 0.1558229923248291,
+        "_SPResponseTime": 0.16459298133850098,
         "_dataType": "SPDiagnosticsData"
       },
       {
@@ -1802,7 +1803,7 @@
           "-detailLevel",
           "full"
         ],
-        "_SPResponseTime": 0.15601903200149536,
+        "_SPResponseTime": 0.15341997146606445,
         "_dataType": "SPDiscBurningData"
       },
       {
@@ -1814,7 +1815,7 @@
           "-detailLevel",
           "full"
         ],
-        "_SPResponseTime": 0.1701449751853943,
+        "_SPResponseTime": 0.16419798135757446,
         "_dataType": "SPDisplaysData"
       },
       {
@@ -1826,7 +1827,7 @@
           "-detailLevel",
           "full"
         ],
-        "_SPResponseTime": 0.15528500080108643,
+        "_SPResponseTime": 0.15411800146102905,
         "_dataType": "SPEthernetData"
       },
       {
@@ -1838,7 +1839,7 @@
           "-detailLevel",
           "full"
         ],
-        "_SPResponseTime": 0.15641701221466064,
+        "_SPResponseTime": 0.15343397855758667,
         "_dataType": "SPFibreChannelData"
       },
       {
@@ -1850,7 +1851,7 @@
           "-detailLevel",
           "full"
         ],
-        "_SPResponseTime": 0.17214399576187134,
+        "_SPResponseTime": 0.1641860008239746,
         "_dataType": "SPFireWireData"
       },
       {
@@ -1862,8 +1863,8 @@
           "-detailLevel",
           "full"
         ],
-        "_SPCompletionInterval": 0.020842015743255615,
-        "_SPResponseTime": 0.1407710313796997,
+        "_SPCompletionInterval": 0.03302699327468872,
+        "_SPResponseTime": 0.16195499897003174,
         "_dataType": "SPHardwareDataType",
         "_detailLevel": "-2",
         "_items": [
@@ -2016,7 +2017,7 @@
             "_detailLevel": "0"
           }
         },
-        "_timeStamp": "2015-12-18T16:56:36+00:00",
+        "_timeStamp": "2015-12-18T22:04:35+00:00",
         "_versionInfo": {
           "com.apple.SystemProfiler.SPPlatformReporter": "1443"
         }
@@ -2030,7 +2031,7 @@
           "-detailLevel",
           "full"
         ],
-        "_SPResponseTime": 0.17059201002120972,
+        "_SPResponseTime": 0.16373199224472046,
         "_dataType": "SPHardwareRAIDData"
       },
       {
@@ -2042,7 +2043,7 @@
           "-detailLevel",
           "full"
         ],
-        "_SPResponseTime": 0.16748398542404175,
+        "_SPResponseTime": 0.16748499870300293,
         "_dataType": "SPMemoryData"
       },
       {
@@ -2054,7 +2055,7 @@
           "-detailLevel",
           "full"
         ],
-        "_SPResponseTime": 0.1525859832763672,
+        "_SPResponseTime": 0.15142899751663208,
         "_dataType": "SPModemData"
       },
       {
@@ -2066,7 +2067,7 @@
           "-detailLevel",
           "full"
         ],
-        "_SPResponseTime": 0.1508389711380005,
+        "_SPResponseTime": 0.15211302042007446,
         "_dataType": "SPNetworkData"
       },
       {
@@ -2078,7 +2079,7 @@
           "-detailLevel",
           "full"
         ],
-        "_SPResponseTime": 0.1486930251121521,
+        "_SPResponseTime": 0.15132004022598267,
         "_dataType": "SPPCIData"
       },
       {
@@ -2090,7 +2091,7 @@
           "-detailLevel",
           "full"
         ],
-        "_SPResponseTime": 0.1557849645614624,
+        "_SPResponseTime": 0.342956006526947,
         "_dataType": "SPParallelATAData"
       },
       {
@@ -2102,7 +2103,7 @@
           "-detailLevel",
           "full"
         ],
-        "_SPResponseTime": 0.14880502223968506,
+        "_SPResponseTime": 0.15407603979110718,
         "_dataType": "SPParallelSCSIData"
       },
       {
@@ -2114,7 +2115,7 @@
           "-detailLevel",
           "full"
         ],
-        "_SPResponseTime": 0.1691100001335144,
+        "_SPResponseTime": 0.14864099025726318,
         "_dataType": "SPPrintersData"
       },
       {
@@ -2126,7 +2127,7 @@
           "-detailLevel",
           "full"
         ],
-        "_SPResponseTime": 0.16869699954986572,
+        "_SPResponseTime": 0.14892297983169556,
         "_dataType": "SPPrintersSoftwareData"
       },
       {
@@ -2138,7 +2139,7 @@
           "-detailLevel",
           "full"
         ],
-        "_SPResponseTime": 0.17361795902252197,
+        "_SPResponseTime": 0.1487320065498352,
         "_dataType": "SPSASData"
       },
       {
@@ -2150,7 +2151,7 @@
           "-detailLevel",
           "full"
         ],
-        "_SPResponseTime": 0.17236703634262085,
+        "_SPResponseTime": 0.1485840082168579,
         "_dataType": "SPSerialATAData"
       },
       {
@@ -2162,7 +2163,7 @@
           "-detailLevel",
           "full"
         ],
-        "_SPResponseTime": 0.1488109827041626,
+        "_SPResponseTime": 0.1541619896888733,
         "_dataType": "SPSoftwareData"
       },
       {
@@ -2174,7 +2175,7 @@
           "-detailLevel",
           "full"
         ],
-        "_SPResponseTime": 0.15526604652404785,
+        "_SPResponseTime": 0.1541299819946289,
         "_dataType": "SPThunderboltData"
       },
       {
@@ -2186,7 +2187,7 @@
           "-detailLevel",
           "full"
         ],
-        "_SPResponseTime": 0.15030699968338013,
+        "_SPResponseTime": 0.1541520357131958,
         "_dataType": "SPUSBData"
       },
       {
@@ -2198,7 +2199,7 @@
           "-detailLevel",
           "full"
         ],
-        "_SPResponseTime": 0.15054196119308472,
+        "_SPResponseTime": 0.14898604154586792,
         "_dataType": "SPWWANData"
       }
     ],
@@ -2213,7 +2214,7 @@
 
       }
     },
-    "ohai_time": 1450457797.131809,
+    "ohai_time": 1450476275.627477,
     "etc": {
       "passwd": {
         "_amavisd": {
